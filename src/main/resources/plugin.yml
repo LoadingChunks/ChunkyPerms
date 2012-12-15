@@ -1,0 +1,11 @@
+name: ChunkyPerms
+main: Chunk.ChunkyPerms
+version: 0.1
+
+commands:
+   permissions:
+      description: Permissions Management
+      usage:
+      - /permissions reload - Reloads from DB
+      - /permissions set <group|player> <node> <true|false>
+      - /permissions unset <group|player> <node>
